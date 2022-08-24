@@ -1,0 +1,33 @@
+.service {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.servise__header {
+position: relative;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.3;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.servise__header::after{ content: "";
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  height: 10px;
+  width: 110px;
+  background-color: rgba(0, 38, 29, 0.3);}
+
+  .service__name {font-weight: 600;
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 15px;
+line-height: 1.3;}
+.servise__description{font-weight: 400;
+font-size: 16px;
+line-height: 1.6;}
+.servise__item + .servise__item {padding-top: 30px;}

@@ -1,0 +1,46 @@
+.statistic {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.statistic__header {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.statistic__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.statistic__item {
+  width: calc(50% - 7.5px);
+  height: 170px;
+  padding: 25px;
+  background: #f6f6f8;
+  border: 1px solid #dbdbed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.statistic__tytle {
+  font-size: 14px;
+  line-height: 1.3;
+  color: #333333;
+  
+}
+.statistic__value {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  display: flex;
+  color: #333333;
+}

@@ -1,0 +1,12 @@
+.footer {
+  height: 101px;
+  background-color: #00261d;
+  text-align: center;
+  position: relative;
+}
+.footer-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
